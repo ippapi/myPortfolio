@@ -28,7 +28,7 @@ const Model = () => {
 
 const ModelViewer = () => {
   return (
-    <Canvas style={{ height: '100%', width: '100%' }}>
+    <Canvas style={{ height: '800px', width: '100%' }}>
       <Model />
     </Canvas>
   );
