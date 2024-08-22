@@ -5,7 +5,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useRef } from 'react';
 
 const Model = () => {
-  const gltf = useLoader(GLTFLoader, "/ethereum-logo.glb");
+  const gltf = useLoader(GLTFLoader, "/myPortfolio/ethereum-logo.glb");
   const modelRef = useRef(null);
 
     useFrame((state, delta) => {
